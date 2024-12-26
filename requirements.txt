@@ -1,5 +1,5 @@
+pyrogram
 apscheduler
 python-dotenv
 yfinance
-requests
-pandas
+tgcrypto
