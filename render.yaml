@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: nifty-monitor
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python nifty_alert.py"
